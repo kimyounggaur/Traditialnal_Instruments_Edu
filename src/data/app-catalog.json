@@ -1,0 +1,436 @@
+[
+  {
+    "id": "app-gayageum",
+    "title": "가야금 연습 연결",
+    "url": "https://gayageum-fingering-edu.vercel.app/",
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "gayageum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "악기형과 학습 목표 확인 후 연결할 연습 도구 후보입니다.",
+    "level": null,
+    "status": "unchecked",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-gayageum",
+    "sourceEvidence": "PROMPT_PACK.md 5장: 클래식 원문 목록에 관찰된 URL. 실행·내용·모델·개인정보 미점검.",
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-geomungo",
+    "title": "거문고 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "geomungo"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-geomungo",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-daegeum",
+    "title": "대금 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "daegeum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-daegeum",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-danso",
+    "title": "단소 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "danso"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-danso",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-saenghwang",
+    "title": "생황 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "saenghwang"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-saenghwang",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-sogeum",
+    "title": "소금 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "sogeum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-sogeum",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-ajaeng",
+    "title": "아쟁 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "ajaeng"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-ajaeng",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-yanggeum",
+    "title": "양금 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "yanggeum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-yanggeum",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-janggu",
+    "title": "장구 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "janggu"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-janggu",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-cheolhyeongeum",
+    "title": "철현금 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "cheolhyeongeum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-cheolhyeongeum",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-taepyeongso",
+    "title": "태평소 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "taepyeongso"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-taepyeongso",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-piri",
+    "title": "피리 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "piri"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-piri",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-percussion-samulnori",
+    "title": "타악기·사물놀이 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "percussion-samulnori"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-percussion-samulnori",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  },
+  {
+    "id": "app-haegeum",
+    "title": "해금 연습 연결",
+    "url": null,
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1U9_lnsl_Cwra95tdoYrUGR45j16YZJ7r/view",
+    "instruments": [
+      "haegeum"
+    ],
+    "instrumentSystem": null,
+    "scope": "mvp_candidate",
+    "purpose": "사용자가 확인한 연습 도구가 등록되면 점검합니다.",
+    "level": null,
+    "status": "todo",
+    "checkedAt": null,
+    "checkEvidence": null,
+    "contentAccuracyChecked": false,
+    "requiresCamera": "unknown",
+    "requiresMicrophone": "unknown",
+    "requiresLogin": "unknown",
+    "enabled": false,
+    "fallbackResourceId": "demo-haegeum",
+    "sourceEvidence": null,
+    "availabilityCheck": false,
+    "contentCompatibilityCheck": false,
+    "privacyPermissionCheck": false,
+    "notationKinds": [
+      "unknown"
+    ],
+    "objectives": [],
+    "revision": 0
+  }
+]

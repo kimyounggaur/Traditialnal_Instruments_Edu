@@ -1,0 +1,107 @@
+Gugak Library verification — 2026-10-14T12:44:02.855559+00:00
+
+$ npm run lint
+Started: 2026-10-14T12:44:02.855574+00:00
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gugak-library@1.0.0 lint
+> eslint src tests
+
+Exit: 0 | seconds: 5.12
+
+$ npm run typecheck
+Started: 2026-10-14T12:44:07.979394+00:00
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gugak-library@1.0.0 typecheck
+> tsc --noEmit
+
+Exit: 0 | seconds: 2.69
+
+$ npm test
+Started: 2026-10-14T12:44:10.673385+00:00
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gugak-library@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /workspace/scratch/0d1c698ccdb8/gugak-library
+
+ ✓ tests/unit/domain.test.ts (38 tests) 231ms
+ ✓ tests/unit/repository.test.ts (22 tests) 1635ms
+   ✓ repository commands and immutable versions > saves all fourteen instrument lesson plans, maintains totals, and rejects time mismatch  436ms
+ ✓ tests/component/provider-and-shell.test.tsx (4 tests) 2585ms
+   ✓ local persistence failure recovery through real provider > does not overwrite corrupt storage, exposes a warning and keeps fourteen cards usable  1084ms
+   ✓ local persistence failure recovery through real provider > quota failure retains the bookmark in memory with an explicit persistence warning  394ms
+   ✓ local persistence failure recovery through real provider > uses the gugak storage namespace and leaves an existing classical sentinel untouched  494ms
+   ✓ local persistence failure recovery through real provider > gives skip navigation, a named role control, and a dismissible live notification  612ms
+ ✓ tests/component/reader.test.tsx (21 tests) 2933ms
+   ✓ detail and reader route, source, rights boundaries > shows synthetic origin, two structured units, unconfirmed context and a non-clickable PDF placeholder  762ms
+ ✓ tests/component/bookshelf.test.tsx (35 tests) 3069ms
+   ✓ 14-family bookshelf and honest counts > renders fourteen separately named book links and never links private source records  1006ms
+ ✓ tests/component/staff.test.tsx (6 tests) 2497ms
+   ✓ source inventory and independent review/rights boundaries > separates 14 actual PPTX files and 702 counted slides from zero bundled source bodies  446ms
+   ✓ source inventory and independent review/rights boundaries > allows synthetic request/approval but refuses publication with unknown rights and keeps real approval at zero  1343ms
+
+ Test Files  6 passed (6)
+      Tests  126 passed (126)
+   Start at  08:44:11
+   Duration  4.74s (transform 1.48s, setup 392ms, collect 3.90s, tests 12.95s, environment 1.42s, prepare 446ms)
+
+Exit: 0 | seconds: 5.24
+
+$ npm run build
+Started: 2026-10-14T12:44:15.913818+00:00
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gugak-library@1.0.0 build
+> node scripts/next-local.mjs build
+
+▲ Next.js 16.4.0 (Turbopack)
+✓ Running next.config.ts took 19ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.6s
+  Running TypeScript ...
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next/dev/types/**/*.ts'
+
+  Finished TypeScript in 4.2s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/11) ...
+  Generating static pages using 8 workers (2/11) 
+  Generating static pages using 8 workers (5/11) 
+  Generating static pages using 8 workers (8/11) 
+✓ Generating static pages using 8 workers (11/11) in 388ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /admin/apps
+├ ○ /admin/issues
+├ ○ /admin/resources
+├ ƒ /admin/reviews/[resourceId]
+├ ○ /admin/sources
+├ ○ /bookmarks
+├ ○ /library
+├ ƒ /library/[resourceId]
+├ ƒ /library/[resourceId]/units/[unitId]
+├ ○ /practice
+├ ○ /teacher/plans
+└ ƒ /teacher/plans/[planId]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Exit: 0 | seconds: 8.52
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/extract_pptx.py --self-test
+Started: 2026-10-14T12:44:24.435245+00:00
+PASS: valid synthetic extraction, immutable output, 10 unsafe-input cases
+Exit: 0 | seconds: 0.05

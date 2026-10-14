@@ -1,0 +1,51 @@
+[
+  {
+    "command": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "startedAt": "2026-10-14T12:44:02.855574+00:00",
+    "seconds": 5.12,
+    "exitCode": 0
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "typecheck"
+    ],
+    "startedAt": "2026-10-14T12:44:07.979394+00:00",
+    "seconds": 2.69,
+    "exitCode": 0
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "startedAt": "2026-10-14T12:44:10.673385+00:00",
+    "seconds": 5.24,
+    "exitCode": 0
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "startedAt": "2026-10-14T12:44:15.913818+00:00",
+    "seconds": 8.52,
+    "exitCode": 0
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "scripts/extract_pptx.py",
+      "--self-test"
+    ],
+    "startedAt": "2026-10-14T12:44:24.435245+00:00",
+    "seconds": 0.05,
+    "exitCode": 0
+  }
+]
